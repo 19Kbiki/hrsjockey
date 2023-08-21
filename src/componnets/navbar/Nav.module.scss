@@ -1,0 +1,58 @@
+@import "../../configer/variable.scss";
+@import "../../configer/mixin.scss";
+
+header{
+    nav{
+        .topnav{
+            background-color: $primary_color;
+            .box{
+                padding: 0.5rem;
+                @include flexbox_between;
+                color: $white_color;
+                
+                p{
+                    font-size: 16px;
+                    font-weight: 300;
+
+                }
+                .contact_info{
+                    ul{
+                        li{
+                            display: inline;
+                            padding-left: 1.5rem;
+                            font-weight: 300;
+                            font-size: 16px ;
+                        }
+                    }
+                }
+            }
+
+        }
+        .main_nav{
+            padding: 1rem 0;
+            border-bottom: 1px solid #00000015;
+            .box{
+               @include flexbox_between;
+               .logo{
+                    width: 15%;
+                    img{
+                        width: 100%;
+                    }
+               }
+               .menu{
+                ul{
+                    li{
+                        display: inline;
+                        padding-left: 1.5rem;
+                        a{
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            color: $primary_color;
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}

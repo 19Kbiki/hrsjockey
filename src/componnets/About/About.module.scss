@@ -1,0 +1,35 @@
+@import "../../configer/variable.scss";
+@import "../../configer/mixin.scss";
+
+.banner_about{
+    background-color: black;
+    background-size: cover;
+    .banner_info{
+        padding: 10rem  0;
+        text-align: center;
+        color: #fff;
+        h1{
+            font-size: 42px;
+            font-weight: 600;
+            letter-spacing: 0.25px;
+            line-height: 42px*1.3;
+        }
+        h3{
+            font-family: 'Popinse', sans-serif;
+            font-size: 18px;
+            word-spacing: 0.5rem;
+            color: #dad8d8;
+            letter-spacing: 0.25px;
+            
+        }
+    }
+}
+
+.info{
+    padding: 5rem 0 ;
+    p{
+        font-size: 18px;
+        line-height: 18px*1.5;
+        padding-bottom: 32px;
+    }
+}

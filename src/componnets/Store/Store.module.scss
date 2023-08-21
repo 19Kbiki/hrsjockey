@@ -1,0 +1,224 @@
+@import "../../configer/variable.scss";
+@import "../../configer/mixin.scss";
+
+.banner_about{
+    background-color: black;
+    background-size: cover;
+    .banner_info{
+        padding: 10rem  0;
+        text-align: center;
+        color: #fff;
+        h1{
+            font-size: 42px;
+            font-weight: 600;
+            letter-spacing: 0.25px;
+            line-height: 42px*1.3;
+        }
+        h3{
+            font-family: 'Popinse', sans-serif;
+            font-size: 18px;
+            word-spacing: 0.5rem;
+            color: #dad8d8;
+            letter-spacing: 0.25px;
+            
+        }
+    }
+}
+.contacts{
+    padding: 5rem 5rem 0;
+    .contact_dtl{
+        background-color: $primary_color;
+        ;
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #fff;
+        h4{
+            font-size: 24px;
+            i{
+                padding-right: 1rem;
+            }
+        }
+    }
+}
+.store_show{
+    padding: 5rem;
+    .wrap{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        img{
+            width: 100%;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.contact_info{
+    padding: 0 5rem  5rem;
+    h1{
+        
+        text-align: center;
+        padding-bottom: 3rem;
+        font-weight: 600;
+    }
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 20px;
+        img{
+            box-shadow: 0 0 20px #0000004c;
+            border-radius: 5px;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:767px) {
+    .banner_about{
+        background-color: black;
+        background-size: cover;
+        .banner_info{
+            padding: 5rem  0;
+            text-align: center;
+            color: #fff;
+            h1{
+                font-size: 32px;
+                font-weight: 600;
+                letter-spacing: 0.25px;
+                line-height: 32px*1.3;
+            }
+            h3{
+                font-family: 'Popinse', sans-serif;
+                font-size: 12px;
+                word-spacing: 0.5rem;
+                color: #dad8d8;
+                letter-spacing: 0.25px;
+                
+            }
+        }
+    }
+    .contacts{
+        padding: 2rem 2rem 0;
+        .contact_dtl{
+            background-color: #AF7F66;
+            padding: 1rem ;
+            display: flex;
+            align-items: self-start;
+            flex-direction: column;
+            justify-content: start;
+            row-gap: 1rem;
+            color: #fff;
+            h4{
+                font-size: 14px;
+                i{
+                    padding-right: 1rem;
+                }
+            }
+        }
+    }
+    .store_show{
+        padding: 2rem;
+        .wrap{
+            display: grid;
+            grid-template-columns: 1fr ;
+            iframe{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    .contact_info{
+        padding: 0 2rem  2rem;
+        h1{
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+        .wrap{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 10px;
+            img{
+                box-shadow: 0 0 20px #0000004c;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+@media screen and (max-width:448px) {
+    .banner_about{
+        background-color: black;
+        background-size: cover;
+        .banner_info{
+            padding: 5rem  0;
+            text-align: center;
+            color: #fff;
+            h1{
+                font-size: 32px;
+                font-weight: 600;
+                letter-spacing: 0.25px;
+                line-height: 32px*1.3;
+            }
+            h3{
+                font-family: 'Popinse', sans-serif;
+                font-size: 12px;
+                word-spacing: 0.5rem;
+                color: #dad8d8;
+                letter-spacing: 0.25px;
+                
+            }
+        }
+    }
+    .contacts{
+        padding: 2rem 2rem 0;
+        .contact_dtl{
+            background-color: #AF7F66;
+            padding: 1rem ;
+            display: flex;
+            align-items: self-start;
+            flex-direction: column;
+            justify-content: start;
+            row-gap: 1rem;
+            color: #fff;
+            h4{
+                font-size: 14px;
+                i{
+                    padding-right: 1rem;
+                }
+            }
+        }
+    }
+    .store_show{
+        padding: 2rem;
+        .wrap{
+            display: grid;
+            grid-template-columns: 1fr ;
+            iframe{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    .contact_info{
+        padding: 0 2rem  2rem;
+        h1{
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+        .wrap{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 10px;
+            img{
+                box-shadow: 0 0 20px #0000004c;
+                border-radius: 5px;
+            }
+        }
+    }
+}

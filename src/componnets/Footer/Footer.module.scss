@@ -1,0 +1,56 @@
+@import "../../configer/variable.scss";
+@import "../../configer/mixin.scss";
+footer{
+    background-color: $primary_color;
+    padding: 5rem 0 2rem;
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 1rem;
+        color: $white_color;
+       .card{
+        img{
+            width: 80%;
+            padding-bottom: 32px;
+        }
+        h4{
+            padding-bottom: 32px;
+            font-size: 24px;
+            letter-spacing: 0.25px;
+        }
+        ul{
+            li{
+                font-size: 16px;
+                line-height: 16px*1.5;
+                padding-bottom: 1rem;
+                a{
+                    color: #e0e0e0;
+                }
+            }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+    .card:nth-child(2){
+        padding-left: 2rem;
+    }
+
+    }
+    .footer_bottom{
+        color: $white_color;
+        text-align: center;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        border-top: 2px solid #6a6969;
+        p{
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 0.25px;
+            font-weight: 400;
+            opacity: 0.7;
+        
+        }
+    }
+}
