@@ -22,3 +22,32 @@
         }
     }
 }
+@media screen and (max-width:448px) {
+    .women{
+        padding: 2rem 0;
+        .cards{
+            box-shadow: 0 0 20px #00000013;
+            text-align: center;
+            padding: 0.5rem;
+            border-radius: 5px;
+            img{
+                width: 100%;
+            }
+            .card_body{
+                padding: 1rem 0;
+                h4{
+                    font-size: 12px;
+                    font-weight: 0600;
+                    padding-bottom: 24px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                p{
+                    font-size: 12px;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

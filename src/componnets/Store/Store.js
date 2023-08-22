@@ -13,7 +13,7 @@ export default function Store() {
      <section className={styles.contacts} >
       <div className={styles.contact_dtl}>
         <h4><i className='fa-solid fa-phone-volume'></i> +91 87893 10045</h4>
-        <h4><i className='fa-solid fa-envelope'></i> info@hrstitan.com</h4>
+        <h4><i className='fa-solid fa-envelope'></i> info@hrsjockey.com</h4>
         <h4><i className='fa-solid fa-location'></i>  Near Pantaloon Showroom , Judges colony Gaya , Bihar , 823001</h4>
         
       </div>

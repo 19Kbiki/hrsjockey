@@ -18,7 +18,33 @@ export class Women extends Component {
         speed: 500,
         centerPadding: "60px",
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        arrows:false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+          
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          }
+        ]
       };
     return (
       <div>

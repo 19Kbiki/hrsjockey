@@ -15,15 +15,15 @@ function App() {
       <BrowserRouter>
        <Nav/>
           <Routes>
-          <Route index element={<Home />} />
-            <Route path='/' element = {<Home/>} >
-              <Route index element={<Men />} />
-              <Route path='/men' element = {<Men/>} />
-              <Route path='/women' element = {<Women/>} />
-              <Route path='/kids' element = {<Kids/>} />
-            </Route>
-            <Route path='/about' element = {<About/>} />
-            <Route path='/store' element = {<Store/>} />
+              <Route index element={<Home />} />
+              <Route path="/" element={<Home />}>
+                <Route index element={<Men />} />
+                <Route path="men" element={<Men />} />
+                <Route path="women" element={<Women />} />
+                <Route path="kids" element={<Kids />} />
+              </Route>
+              <Route path="about" element={<About />} />
+              <Route path="store" element={<Store />} />
           </Routes>
         <Footer/>
         </BrowserRouter>
